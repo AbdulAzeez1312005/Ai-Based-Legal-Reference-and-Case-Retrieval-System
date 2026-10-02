@@ -1,0 +1,12 @@
+langchain-openai
+langchain-huggingface
+langchain-pinecone
+langchain-core
+langchain
+python-dotenv
+sentence-transformers
+pinecone-client
+flask
+flask_sqlalchemy
+flask_login
+werkzeug

@@ -1,0 +1,89 @@
+/* static/css/landing.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.landing-container {
+    /* Reference the image you just saved */
+    background-image: linear-gradient(rgba(25, 0, 45, 0.7), rgba(25, 0, 45, 0.7)), url("../img/landing-bg.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-box {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 850px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+.button-group .btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 35px;
+    margin: 0 15px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.btn.btn-login {
+    background-color: #D946EF; /* A vibrant pink/purple */
+    border-color: #D946EF;
+}
+
+.btn.btn-login:hover {
+    background-color: transparent;
+    color: #D946EF;
+}
+
+.btn.btn-signup {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn.btn-signup:hover {
+    background-color: #fff;
+    color: #212121;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    .button-group .btn {
+        display: block;
+        margin: 15px auto;
+        width: 80%;
+    }
+}

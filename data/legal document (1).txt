@@ -1,0 +1,585 @@
+Justice In Deciding Disputes: Precedent
+82
+whole character of his judgement41 Fourthly, the best type of report is one which indicates,
+the arguments of counsel and sets out the judgment, or relevant portion of it, verbatim. A
+report which only summaries the judgment should only be used in the absence of a fuller
+report, but may not even then carry much weight42 Finally in the absence of all else the oral
+account of a case by a barrister is admissible, though again this may be of limited value.43
+Application of precedents
+A precedent influences future decision. Every decision is pronounced on a specific set of
+past facts and from the decision on those facts a rule has to be extracted and projected into
+the future. No one can foresee, the precise situations that will arise, so that rule has to be
+capable of applying to a range of broadly similar situations against a background of changing
+conditions. It has therefore to be in general terms and ‘malleable’. As pointed out at the
+beginning of the book, no word has one proper meaning, nor can anyone see to fix the
+meaning of words for others, so that interpretation of the rule remain flexible and openended44
+.
+Applying a precedent to the instant case is a process of matching the fact –pattern of the
+precedent and the ruling thereon with the fact-pattern of the instant case; if they match, the
+rule is applied, if not, it is distinguished. This involves the first two kinds of knowledge
+mentioned at the start of this chapter, namely, knowing the facts and knowing the law
+applicable to those facts.
+Knowing the facts
+ Knowing the facts of the instant case involves an exercise of discretion. This lies initially
+in believing or disbelieving the testimony of witnesses and weighing it on a balance of
+probability. Judges are human, so the quirks of individual personalities may also play some
+part occasionally.45 The discretionary element is most significant in knowing how to state the
+facts, for, as pointed out in Chapter 146, it is not knowledge of facts, but knowledge of how to
+state facts that is relevant; and this applies to the statement of facts of both the instant and the
+
+41 Bromley v. Bromley (1965) P 111 [1965] 3 All ER 226 See also Young v. North Riding Justices
+(1965) 1 QB 502 at 508, (1965) 1 All ER 141 at 143-144, where the omission from the revised version
+of a point included in the Justices of the Peace Report was considered; and R v. Cockburn [1968] 1 All
+ER 466 at 468, [1968] 1 WLR 281 at 283-284, where the court repudiated a remark in another case,
+which is reported in the All England Law Reports and Weekly Law Reports, but is eliminated from the
+Law Report and Criminal Appeal Reports.
+42 Hallett J in Rivoli Hats Ltd. V. Gooch [1953] 2 All ER 823 at 824, [1953] 1 WLR 1190 at 1192
+commenting on the summarized report of Clayton Newbury Ltd. V. Findlay in (1951) Current Law
+Consolidation 65 (a fuller report was immediately included in [1953] 1 WLR 1194; and, less fully, in
+[1953] 2 All ER 826. See also Haley v. London Electricity Board [1965] AC 778, [1964] 3 All ER 185,
+commenting on Pritchard v. Post Office as reported in [1950] WN 310 and (1950) 114 JP 370.
+43 See the observations of Lord Morton in Champan v. Chapman [1954] AC 429 at 464-465, [1954] 1
+All ER 798 at 815-816.
+44 See Stone Legal System and Lawyers’ Reasonings pp 35-36.
+45 See pp 220-225 post.
+46 See pp 7-8 ante. 
+Justice In Deciding Disputes: Precedent
+83
+precedent cases. As Lord Simon has said. ‘What is relevant is not only the statement of
+material facts by the deciding judge, but also their re-statement by other judges in later
+cases.47
+First, the art of knowing how to state facts involves the distinction between statements of
+primary and secondary (or/inferential) facts: between saying, eg that A did so and so at such
+a time in such a place and saying that A acted negligently. ‘Negligence’ is commonly treated
+as a question of fact, but since it is a matter of inference from a set of primary facts two couts
+may state the inferential fact differently while agreeing on the primary facts48
+Secondly, there is knowledge of how to state facts at different levels of generality, which
+makes it possible for the deciding judge and a judge in a later case to make different
+statements of facts. Thus, A may have driven a Rolls Royce car at 30 mph through Piccadilly
+Circus at 2 pm on a certain Wednesday, run into B and Broken his right leg. The individual A
+may be generalized into ‘person’; the Rolls Royce car may be generalized into ‘vehicle’;
+Piccadilly Circus into ‘public highway’; 30 mph through Piccadilly Circus at 2 pm. On
+Wednesday into negligence; and B’s broken right leg into physical injury to the person. A
+restatement of these facts at a more general level would be: ‘a person inflicted of physical
+damage’; and more generally still: ‘the negligent infliction of damage. The higher the level of
+generality, the wider the scope of the proposition. It is clear at a glance that negligent
+infliction of damage’ is winder than just ‘the breaking of a given person’s right leg by the
+careless driving of a Roll Royce Car’. A later judge is at liberty to accept as the factstatement of A v B a proposition at any level along the scale. Thus, one who is confronted
+with situation in which a careless false statement has caused damage to person or property,
+and who wishes to utilise the decision in A v B in order to hold the defendant liable, would
+no doubt regard that case as authority for the negligent infliction of physical damage’, since
+only at this level of generality would the ruling become wide enough to cover the instant
+case49. On the other hand, another judge, wishing to impose liability for pecuniary loss
+would no doubt prefer the widest interpretation of A v. B, namely, the negligent infliction of
+damage.50
+Thirdly, it is necessary to know how to select the material facts. The fewer material facts
+included in a statement, the wider is its scope. In Rylands v. Fletcher51 the facts were as
+follows: (i) A had a reservoir built; (ii) A employed B to build it; (iii) A wasw not himself
+negligent; (iv) B was negligent; (v) water escaped woing to B’s negligent construction of the
+
+47 FA & AB Ltd v. Lupton (Inspector of Taxes) [1972] AC 634 at 659, 659, [1971] 3 All ER 948 at
+964, 965.
+48 Benmax v. Austin Motor Co Ltd. [1955] AC 370, [1955] 1 All ER 326.
+49 Eg. Asquith LJ in Candler v. Crane, Christmas & fCo [1951] 2 KB 164 at 189, [1951] 1 All ER 426
+at 439; Clayton v. Woodman & Son (Builders) Ltd [1962] 2 QB 533, [1961] 3 All ER 249 (revd on the
+facts without affecting the principle [1962] 2 QB at 546, [1962] 2 All ER 891.
+50 Eg Ross v Caunters [1980] Ch 297, [1979] 3 ALL ER 580; Junior Books Ltd. V. Veitchi Co Ltd.
+[1983] 1 AC 520, [1982] 3 All ER 201.
+51 [1868] LR 3 HL 330, and see Goodhart ‘The Ratio Decidendi of a Case’ in Essays in jurisprudence
+and the Commn Law pp 17-18.
+Justice In Deciding Disputes: Precedent
+84
+reservoir and damaged C’s property. Only facts (i) and (v) were treated as material by the
+court. By ignoring the absence and presence of negligence in A and B respectively, and by
+generalising fact (i) into ‘anything likely to do mischief, the decision creates the sweeping
+rule that whoever brings a ‘mischievous substance’ on to his land is liable for damage52
+caused by its escape, irrespective of negligence.
+Connected with this, fourthly, is the ability of a later judge to review the material facts of the
+precedent and add to or subtract from the sub-total of facts selected by the deciding judge; or
+he may re-state the facts at a different level of generality. Such re-statements extend or
+restrict the ambit of the precedent in Wilsons and Clyde Coal Co Ltd. English53 the
+employers were held liable for the death of one of their employees owing to the default of
+another employee. At that date a servant could not hold his employer vicariously liable for an
+injury inflicted by a fellow-servant because of the prevailing doctrine of commonemployment, which has since been abolished. Therefore, to hold the employers liable, it was
+essential to the ratio decidendi to ignore the fact that the party at fault was a servant and to
+say that the employers were being held liable, nor vicariously, but for the breach of a
+personal non-delegable duty to ensure that reasonable care would be taken. So stated, the rule
+would attach liability to the employer of even an independent contractor. In Davie v. New
+Merton Board Mills Ltd54, however, Viscount Simonds and Lord Reid appeared to place an
+interpretation upon Wilsons’ Case which would dismantle this rule. They stressed the
+materiality of the fact that it was not a contractor but a servant who had been at fault, which
+would involve a fundamental reinterpretation of the case55 The Employer’s Liability
+(Defective Equipment) Act 1969, how now overruled Davie and restored the original
+interpretation of Wilsons in statutory form. The point is even more vividly brought out in the
+two Wagon Mound cases. A quantity of furnace oil was carelessly allowed to spill overboard
+from the SS Wagon Mound into the waters of a harbour. In Wagon Mound56 the Judicial
+Committee of the Privy Council Proceeded on the finding of the lower court that, according
+to scientific opinion at that date, the ignition of the oil in such circumstances was not
+reasonably foreseeable, and accordingly held that there was no answerability in negligence
+for damage by fire. In Wagon Mound (No. 2)57, however, brought by different plaintiffs but
+based on the same occurrence, the lower court stated that a bare possibility of fire might have
+
+52 Subsequent Interpretation of damage leaves open whether it includes personal injury: Miles v Forest
+Rock Granite Co (Leicestercsire) Ltd (1918) 34 TLR 500; Shiffmtan v. Order of St John [1936] 1 All
+ER 557 Hale v. Jenning’s [1938] 1 All ER 579; Perry v. Kendricks Transport Ltd [1956] 1 All ER 154,
+[1956] 1 WLR 85 Cf Read v. J Lyons & Co Ltd. [1947] AC 156, [1946] 2 ALL ER 471.
+53 [1938] AC 57, [1937] 3 All ER 628.
+54 [1959] AC 604, [1959] 1 All ER 346 (overruled by the Employer’s Liability (Defective Equipment)
+Act 1969).
+55 [1959] AC at 621-622, 631, [1959] 1 All ER at 351-353, 358. See now Clerk & Lindsell on Torts, &
+10-102. See also the attensuation of Bailey v. Deddes [1938] 1 KB 156, [1937] 3 All ER 671, in Knight
+v. Sampson [1938] 3 All ER 309; Chisholm v. London Passenger Transport Board [1939] 1 KB 426,
+[1938] 4 All ER 850; Wilkinson v. Chetham-Strode [1940] 2 KB 310, [1940] 2 All ER 643; London
+Passenger Transport Board v. Upson [1949] AC 155, [1949] 1 All ER 60.
+56 [1961] AC 388, [1961] 1 All ER 404.
+57 [1967] 1 AC 617, [1961] 2 All ER 709. 
+Justice In Deciding Disputes: Precedent
+85
+been foreseeable, but that the chance was so remote that it should be ignored. Accordingly,
+the defendants were held not liable on the basis that fire was not reasonably foreseeable. The
+Judicial Committee fastened on this advertence to even a bare possibility of fire as
+constituting a material difference between the first and the second case, and, reversing the
+lower court, held the defendant liable in negligence for fire damage after all. It will thus be
+seen how stressing one factor as material not only enabled two different courts to reach
+opposite results in the same case, but also enabled the same court to reach opposite results in
+two cases based on the same happening.
+ Fifthly, there is the art of knowing how to make different statements by taking different
+combinations of facts. The facts in Donoghue v. Stevenson58 may be listed as follows, (i) A
+was a manufacturer of ginger beer; (ii) A was assumed to have been negligent in that a snail
+was alleged to have been found in one of the bottles; (iii) acting under contract with a retailer,
+B, A delivered the tainted bottle to B without knowing that it contained a snail and thereby
+committed a breach of his contract with B; (iv) B, acting under contract with C, innocently
+passed the bottle to C, thereby committing a breach of his contract with C; (v) C innocently
+passed the bottle to D; (vi) there had been no opportunity for an intermediate examination of
+the bottle at any sage since it left. A; (vii), D was allegedly poisoned by drinking the remains
+of the snail; (viii) this being a Scottish case, D sued A in the Scottish courts, and the case was
+referred to the House of Lords on a preliminary point. It was held that, assuming A had been
+negligent in leaving a snail in the bottle, A would be liable to D. the case was remitted to the
+Scottish court for a decision on fact (ii), namely, whether there had in truth been a different
+combinations of the above facts. In the first place, on fact (viii) alone it might have been
+argued that an appeal from Scotland is not binding on English courts, since Scots law is a
+different system59. Secondly on facts (i), (ii), (vi) and (vii) it could be said that a negligent
+manufacturer is liable for damage to the ultimate consumer where there is no likelihood of an
+intermediate examination the manufacturer proposition. Thirdly, on facts (ii), (ii), (vi) and
+(vii) it could be said that anyone who negligently misperforms a contract and physically
+damages a thirdly party, whom he ought reasonably to have contemplated as likely to be
+affected, is liable to such thirdly party in tort, though he would not be liable in contact.
+Fourthly, on facts (ii) and (vii) it could be said that anyone who negligently damages another,
+whom he ought reasonably to have contemplated as likely to be affected, it liable the
+neighbour proposition. Only in the light of later cases is it possible to determine the ratio
+decidendi of this important case. In recent years courts have come to regard the fourth
+proposition as being its ratio60, while previously they generally adopted the second61. It is
+
+58 [1932] AC 562.
+59 Not after Heyman v. Darwins [1942] AC 356 at 401, [1942] 1 ALL ER 337 at 361.
+60 Home office v. Dorset. Yacht co. ltd. [1970] AC 1004, [1970] 2 All ER 294; Anns v. Merton London
+Dorough Council [1978] AC 728, [1977] 2All ER 492; Ross v. Caunters [1980] Ch 297, [1979] 3 All
+ER 580; Junior Books Ltd. V. Veitchi Co Ltd. [1983] 1 AC 520, [1982] 3 All ER 201.
+61 Eg Howard v. Walker and Lake (Trustees) and Crisp [1947] DKB 860 at 863g. 
+Justice In Deciding Disputes: Precedent
+86
+clear, therefore, that until recently tribunals had the choice of adopting one or the other.62 In
+this way a case may even be given an interpretation quite other than that of the deciding
+judge.
+Finally, as an aside, it may be remarked that Donoghue’s case strikingly illustrates the point
+that what is important in law is the statement of facts rather than even their truth. The house
+of lords remitted the case to the Scottish court for trial on the ruling laid down by the House,
+but this did not take place because of the death of one of the parties. So the truth as to
+whether or not there was a snail in the bottle was never established and is irrelevant to the
+ruling.
+ Wide though the possibilities are of making different statements of facts, they are limited
+by the consensual domain of the usual meanings of words. The facts of Donoghue’s case
+would support any of the statements given above, but not, eg the statement that the defendant
+caused a public nuisance.
+Knowing the law
+What is ‘law’ in a precedent is its ruling or ratio decidendi, which concerns future litigants as
+well as those involved in the instant dispute. Knowing the law in this context means knowing
+how to extract the rationes decidendi from cases. Satatements not part of the ratio decidendi
+as obiter dicta and are not authoritative. Three shades of meaning can be attached to the
+expression ‘ratio decidendi’. The first, which is the translation of it, is the reason for (or of)
+deciding63. Even a finding of fact may in this sense be the ratio decidendi. Thus, a judge may
+state a rule and then decide that the facts do not fall within it. Secondly it may mean the rule
+of law proffered by the judge as the basis of his decision’; or thirdly, it may mean the rule of
+law which others regard as being of binding authority.
+ There is a temptation to suppose that a case has one fixed ruling which is there and
+discoverable here and now and once and for all. This is not so, for the ratio is not only the
+ruling given by the deciding judge for his decision, but any one of a series of rulings as
+elucidated by subsequent interpretations64 the pronouncement of the judge who decided the
+case is a necessary step towards ascertaining the ratio, but the process by no means ends
+there; subsequent interpretation is at least as significant, sometimes more so. ‘it is not
+sufficient’, said Jessel MR.
+That the case should have been decided on a principle if that principle is not itself a
+right principle, or one noe applicable to the case, and it is for a subsequent judge to
+
+62 ‘Wherever the court wishes to find for the plaintiff, that doctrine (the fourth proposition) will be
+invoked, just as it will be disregarded when the defendant is the favoured party: Landon in Pollock on
+Torts p 329.
+63 Lord Dinning MR in Paal Wilson & Co A/S v. Partenreederi Hannah Blumenthal [1983] 1 AC 854 at
+873, [1982] 3 All ER 394 at 400, (varied [1983] 1 AC 854, [1983] 1 All ER 34, HL).
+64 Goodhart Essays in Jurisprudence and the Common Law pp2 
+Justice In Deciding Disputes: Precedent
+87
+say whether or not, it is a right principle, and, if not, he may himself lay down the
+true principle’
+65
+Cases of overruling and reversal by superior authority are obvious instances of subsequent
+correction, but they are not within the scope of the immediate discussion. For, apart from
+these, the judge in a later case may restrict or enlarge the ruling as stated by the deciding
+judge, or he may reinterpret that ruling in such a away as to relegate it to the status of an
+obiter dictum. Accordingly, ratio is best regarded as a pointer towards the direction which
+subsequent decision should take within a board spectrum of variations. It is not something
+identifiable once and far all, but a continuing process, and as such it has to be viewed in a
+continuum of time.
+(1) Difficult though the task of finding the ratio is, there would be a measure of
+agreement in propounding that no rule should be treated as ratio which would not
+support the ultimate order66. Where a stated rule obviously bears no relation to
+the facts, it is no more than a dictum.
+(2) Even when the deciding judge has given no reason for the decision, it may be
+possible for a subsequent tribunal to exact one from it67. However, no judge is
+required to accomplish the impossible. If it is not clear’, said Viscount Dunedin,
+‘then I do not think it is part of the tribunal’s duty to spell out with great
+difficulty a ratio decidendi in order to be bound by it68
+.
+(3) It follows from what has previously been said that different rations may be
+extracted from a case depending on different ways of stating the facts.
+(4) More rarely, a judge may demote a proposition in a previous case from its status
+of ratio to that of dictum. Thus, the ‘neighbour’ proposition in Donoghue v.
+
+65 Osborne v. Rowlett (1880) 13 ChD 774 at 785. Lord Reid, in attempting to find the ratio decidendi
+of an earlier case, said ‘If I had to try, the result might depend on whether or not I was striving to
+obtain a narrow ratio: Scruttons Ltd. V. Midland Silicones Ltd. [1962] 1 All ER 1 at 12. Cf Devlin J
+oin Behrens v Bertram Mills Circus Ltd. [1957] 2 QB 1 at 24, [1957] 1 All Er 583 at 594.
+66 The reason sine qua non: Cardozo ‘Jurisprudence’ in Selected writings (ed Hall) p 33. See also Lord
+Denning in Penn-Texas Corpn v. Murat Anstalt (No. 2) [1964] 2 QB 647 at 660-661, [1964] 2 All ER
+594 at 597; Harper v. National Coal Board (Intended Action) [1974] QB 614 at 621, [1974] 2 All ER
+441 at 446. In Pinchin v. Santam Insurance Co. Ltd. 1963 (2) SA 254 (WLD) the ruling on a point
+which did not affect the ultimate decision was nevertheless made part of the ratio by being made the
+basis of the order on costs. See also The Wagon Mound (No. 2) [1967] 1 AC 617, [1966] 2 All ER 709,
+for the relationship between rulings and the ultimate order.
+67 Eg Giles v. Walker (1890) 24 QBD 656, discussed in Davey v. Harrow Corpn [1958] 1 QB 60 at 71-
+72, [1957] 2 All ER 305 at 309-310.
+68 Great Western Rly Co. v. Mosyn (Owners), The Mostym [1928] AC 57 at 73. A remark by Lord
+Reid in Nash (Inspector of Taxes) v. Tamplin & Sons Brewery, Brighton, Ltd. (1952) AC 231 at 250,
+[1951] 2 All ER 869 at 880, to the effect that every case must have a ratio decidendi and that this
+should either be applied or distinguished appear to have been contradicted by Lord Ried himself in
+Scruttons Ltd. V. Midland Silicones Ltd. [1962] AC 446 at 479, [1962] 1 All ER 1 at 14, which he
+despaired of finding the ratio decidendi of a previous case. 
+Justice In Deciding Disputes: Precedent
+88
+Stevenson used to change its category according to whether the plaintiff or the
+defendant was thought entitled to succeed69
+.
+(5) Certain types of cases do not deserve to be authorities. One type, already alluded
+to, is that in which there is no discoverable ratio decidendi. Others are cases
+turning purely on facts70, those involving the exercise of discretion71, and those
+which judges themselves to not think worthy of being precedents72. Decisions on
+the interpretation of documents are sometimes used as precedents, which is
+regrettable since a court may find itself construing, not the document before it,
+but judicial interpretations of similar working in other, slightly different
+documents73. I do not think it right’, said Lord Denning MR, ‘ to look at previous
+cases in this way. The only legitimate purpose is to use them as a guide towards
+the meaning of words, so as to help in the search for the testators’ intention. They
+should never be used so as to defeat this intention’
+74
+ The difficulties so far considered by no means exhaust the problems that may arise,
+some of which are incapable of solutions. A case may involve two points, A and B, and a
+decision on either in favour of the defendant, be it supposed, is conclusive of the matter,
+while the plaintiff has to win on both A and B in order to win. Suppose that the judge decides
+in the defendant’s favour on both issues. Which is the ratio, since either is sufficient to
+support the decision?75. On the other hand, if he decides in favour of the plaintiff on point A,
+but in favour of the plaintiff on point A, but in favour of the defendant on point B, who
+accordingly win, and if it is accepted that no ruling can be ratio unless it supports the order
+made, then the decision on point A is obiter. Even as a dictum it may nevertheless carry such
+authority that a subsequent tribunal may feel obliged to follow it. If so, the nomenclature
+ratio decidendi or obiter dictum for the decision on point A crease to matter. In Hedley Byrne
+& Co. Ltd. V. Heller & Partners Ltd.76 the House of Lords overthrew a rule by virtue of
+
+69 See Fairman v. Pertetual Investment. Burlding Society [1923] AC 74, as interpreted by Scott LJ in
+Haseldine v. CA Daw & Son Ltd. [1941] 2 KB 343, [1941] 3 All ER 156, and in Doylan v. Dublin
+Corpn [1949] IR 60, and in Pearson v. Lambeth Borough Council [1950] 2 KB 353, [1950] 1 All ER
+682. See also Jacobs v. LCC [1950] AC 361; [1950] 1 All ER 737. See further Adam v. Ward [1917]
+AC 309, as interpreted in Egger v. Viscount Chelmsford [1965] 1 QB 248, [1964] 3 All ER 406.
+70 Simpson v. Peat [1952] 2 QB 24 at 28, [1952] 1 All ER 447 at 449; R v. Young [1953] 1 All ER 2g1.
+71 Bragg v. Crosville Motor Services Ltd. [1959] 1 All ER 613 at 615, [1959] 1 WLR 324 at 326.
+72 R v. Stokesley (Torkshire) Justices, ex p Bartram [1956] 1 All ER 563 at 565, [1956] 1 WLR 254 at
+258.
+73 See the observations of Jessel MR in Aspden v. Seddon (1875) 10 Ch App 394 at 397, 398. As to
+whether such cases should be reported, see Moran The Heralds of the Law ch 7, summarizing the views
+of Lord Lindley, Mews and Burrows.
+74 Re Jebb, Ward-Smith v. Jebb (1966) Ch. 666 at 672, [1965] 3 All ER 358 at 361.
+75 In Said v. Butt [1920] 2 KB 497, the judge made it clear that his decision on point B was additional,
+which makes it a dictum.
+76 [1964] AC 465, [1963] 1 All ER 575. In the South African case of Pinchin v. Santam Insurance Co.
+Ltd. 1963 (2) SA 254 (WLD) the judge made his decision for the plaintiff on point A part of the ratio
+decidendi by basing his order as to costs on it. See also The Wagon Mound (No. 2) [1967] 1 AC 617,
+[1966] 2 All ER 709. 
+Justice In Deciding Disputes: Precedent
+89
+which the defendant had succeeded in the court of appeal and propounded a different rule,
+but with a qualification attached so that the defendant was still able to win. This rule and
+qualification together constitute the ratio; but even if it were said to be a dictum, the
+distinction is immaterial at this level of authority.
+A judge may embark upon a line of reasoning involving a rule which justifies a certain
+conclusion. He may then proceed along another line of reasoning involving a different rule,
+wider on narrower, which also justifies that conclusion77. Lord simonds once declared that if
+two reasons are put forwarded by a court for its decision, both should be accepted as part of
+the radio decidendi78. One may later be rejected, as in Fisher v. Tayler’s Furnishing Stores
+Ltd. 9 where the Court of appeal rejected as incorrect one of the two grounds which it had
+given in an earlier case, and the rejection was later confirmed by both the Court of Appeal
+and the House of Lords10. Again, if the House of Lords has given two reasons for a decision,
+and declares subsequently that one of them is correct and the other wrong, the authoritative
+ruling is the correct one11. This shows how subsequent interpretation determines the ratio
+decidendi as between two stated rulings. Another illustration of the difficulty is Donoghue v.
+Stevenson12 in which there are three rulings justifying the result, the wide ‘neighbour’ rule,
+the narrower ‘manufacturer’ rule and the ‘fallacy of contractual privity’s rule. It has been
+pointed out that judges used to regard the first as being ratio or dictum according to the way
+in which they wished to decide. On the other hand, even the considered opinion of a judge on
+a point not raised or argued will probably be treated as a dictum13. The Same applies to a
+proposition which is merely a proposition of law assumed by the [Board] to be correct for the
+purpose of that particular case14.
+These complications multiply in appellate tribunals where there is a plurality of
+judgments. It may happen that all the judges agree in the result for different reasons. Suppose
+that each of five judges gives a different reasons for arriving at the same result and without
+disagreeing with the reasons given and a subsequent tribunal may be said to have five
+competing retiones and a subsequent tribunal may adopt any of them for the purpose of
+deciding the case before itself. Suppose instead that each of the five not only gives a different
+reason for the same conclusion, but also rejects the reasons given by the other four15. Here
+the difficulty in the way of adopting any one opinion is that it has been condemned in four
+others. Such a case, it is submitted, has no discoverable ratio and is, in any event, worthless
+as an authority. It has so far been assumed that the judges agrees in the result. Whether they
+disagree, further difficulties arise. As long as three at least our of five, or two out of three,
+concur in the result for the same reason, their view may be said to constitute the ratio16.
+Where the majority differ in their reasons while the minority agree on the reason for their
+dissent, it is difficult to say what the discretion17. Finally, if a case has more than one issue
+and the tribunal is not that arise cannot be resolved by any test. The judge in a subsequent
+
+77 Eg Denning LJ in Broom v. Morgan [1953] 1 QB 597 at 609-610, [1953] 1 All ER 849 at 854-855.
+78 Jacobs v. LCC [1950] AC 361 at 369-371, [1950] 1 All ER 737 at 741-742. To the same effect, Lord
+Bramwell in Membery v. Great Western Rly co. (1889) 14 App Gas 179 at 187; Lord MacNaghten in
+New South Wales Taxation Comrs v. Palmer [1907] AC 179 at 184; Greer LJ in London Jewellers Ltd.
+V. Attenborough [1934] 2 KB 206 at 222; Pearce LJ in Cane (Valuation Officer) v. Royal College of
+Music [1961] 2 QB 89 at 114; [1961] 2 All ER 12 at 24; Stamp J in Rogers v. Longsdon [ 
+Justice In Deciding Disputes: Precedent
+90
+case interpretation he chooses upon it18. All this does not imply that the solution would be to
+have only one judgement, even if the court is agreed. Differences in presentation and working
+will avoid the danger of any one judge’s utterance being treated like an Act of Parliament19.
+Obiter Dicta
+Pronouncements of law, which are not part of the ratio decidendi, are classed as obiter dicta
+and are not authoritative. Rationes and dicta tend to shade into each other. The former have
+law-quality and are binding on lower courts, dicta, too, have law-quality, but are not binding
+at all. Vis-a-vis a higher court even the ratio dicdendi of a lower court decision has only
+persuasive force like that of a dictum. It has been pointed out that some dicta are so
+authoritative that the distinction between ratio and dictum is reduced to vanishing point.
+Dicta, which have no force, are propositions stated by way of illustration or on hypothetical
+facts20. Greater difficulties attend ruling of law which are subsequently relegated to the
+status of dicta by interpretation. The distinction in such cases between ratio and dictum is but
+a device employed by subsequent courts for the adoption or rejection of doctrine expressed in
+previous cases according to the inclination of the judges. An example would be the treatment
+of Lord Atkin’s neighbour’ proposition in subsequent cases.
+The weight accorded to dicta varies with the type of dictum. Mere casual expressions carry
+no weight at all. ‘Not every passing expression of a judge, however eminent, can be treated
+as an ex cathedra statement1. On the other hand, dicta which have been acted upon over the
+years may acquire increasing respect2. A dictum may also be adopted as the ratio decidendi
+of a subsequent decision and will then acquire the authority of that tribunal. In Zeidman v.
+Owen3 Lord Goddard CJ said ‘If we thought that the dicta, though obiter, expressed the true
+construction of the Act, we should feel we ought to follow them. Finally, a suggestion has
+been offered that a distinction be drawn between obiter dicta, those irrelevant to the case, and
+judicial dicta, those relevant to some collateral matter but no part of the radio4. The latter will
+generally be more persuasive than the former.
+Subsequent history of a case
+It should be abundantly clear from all this that the ratio decidendi of a case depends on the
+interpretation put upon it no less than on what the deciding judge himself propounded. Later
+history is thus an indispensable and continuing part of ratio. It also shows the limits of
+bindingness.
+Reversal
+A case may be reversed on appeal. The effect of reversal is normally that the first judgment
+ceases to have any effect at all. The situation is different if the case is affirmed or reversed by
+an appellate court on a different point from that on which the decision in the lower court was
+based. In one case, Master of the Rolls said that in such a situation the previous decision will
+be of no effect at all5. This probably goes too far, and in another case it was said that the first
+judgment remains binding6. The truth seems to be that in such a situation a later court has
+freedom to deal as it pleases with the earlier decision.
+Refusal to follow 
+Justice In Deciding Disputes: Precedent
+91
+Before the doctrine of stare decisis came into being, judges freely refused to follow cases
+which they considered to be contrary to principle. A judge may even now refuse to follow a
+decision of co-ordinate authority, in which event the conflict awaits resolution by a superior
+tribunal. Repeated refusals to follow will weaken the authority of a case; as also the refusal
+by a higher court to adopt the rule enunciated by a lower court, but only if such refusal
+implies disapproval of it.
+The growing volume of reported cases often leads to unavoidable overlooking of relevant
+authorities. Sometimes, however, a precedent may be deliberately put on one side, though
+this is done rarely and perhaps as a last resort. Thus, Sellers LJ once said ‘the best way to
+deal with that case is to say that it goes into the limbo of lost causes8.
+Distinguishing
+Repeated distinguishing of a case is evidence that the decision is not approved, and the effect
+may also be to confine it more and more closely to its own special facts.
+It should be evident already that the bindingness is stare decisis is not rigid since judges have
+some latitude in evading unwelcome authorities9. All that the doctrine means is that a judge
+must follow a precedent except where he can reasonably distinguish it; but the possibilities of
+the latter are such that they reduce buidingness to the semblance of a cloud, solid looking and
+clear cut when viewed from afar, but less so when one actually gets into it. A judge may, in
+the first place, restate the factual part of the precedent by lowering the level of generality in
+order to effect the necessary distinction. ‘A case is only an authority for what it actually
+decides. I entirely deny that it can be quoted for a proposition that may seem to follow
+logically from it’: so said Lord Halsbury10, and this words are classic authority for this
+particular distinguishing technique. The two decisions then, as Lord Simon put it, are like
+‘binary starts each part of which lives within the field of the other and is essentially
+influenced by it.11. In this way it is theoretically possible to confine the authority of
+Donoghue v Steveson12 to the manufacture of ginger beer and to disginguish it from a case
+concerning the manufacture of fruit-salaed; but it is obvious that the lengths to which this
+technique can be carried have to be regulated by common sense. A distinction has to be
+reasonable, else it will not satisfy the desire that justice should be done. Alternatel;y, a judge
+may restate the factual part of the precedent by treating as material such additional facts as
+will move it away from the case in hand13. Again, it is possible to evade a precedent by
+treating the less appropriate of alternate principles as it ratio. Or, the ruling hitherto regarded
+as being the ratio may be rejected as dictum. Asquith LJ once quoted the following remarks;
+“the rule is quite siple: if you agree with the other bloke you say it part of the ratio; if you
+don’t, you say it’s obiter dictum, with the implication that he is a congenital idiot” a And this
+may well, as a matter of pure psychological fact, have more underlying truth than we know,
+or care to avow14.
+ On occasions it may be difficult to decide whether a case has been overruled in a
+subsequent decision, or merely distinguished. Where the House of Lords, for example, has
+commented adversely on earlier decisions of inferior courts, there is often a great deal of
+discretion for future courts in deciding whether the House of Lords has by its comments 
+Justice In Deciding Disputes: Precedent
+92
+destroyed the authority of those cases, or merely distinguished them and left their authority
+unimpaired15.
+Changed conditions
+Although a case has neither been reversed nor overruled, it may cease to be ‘law’ owing
+to changed conditions and changed law: cessante ratione cessat ipsa lex. It is not easy to
+detect when such situations occur, for as long as the traditional theory prevails that judges
+never make law, but only declare it, two situations need to be carefully distinguished. One is
+where a case is rejected as being no longer law on the ground that it is now thought never lto
+have represented the law16;; the other is where a case, which is acknowledged to have been
+law at the time, has ceased to have that character owing to altered circumstances. It is the
+latter that is under consideration. If the law-making function of courts is admitted, then it
+would be easy to reject out-of-date precedents openly on the ground of changed conditions
+and not have to resort to the threadbare fiction that cases only reflect what always has been
+law.
+Willes CJ once said, ‘When the nature of things changes, the rules of law must change
+too’17. This is a truism in that the legislature and, within limits, the court should change rules
+to keep the law abreast of change. The question under review is whether changed conditions
+may deprive a case of its law-quality. For instance, the decision of the Court of Appeal in Re
+Polemis and Furness, Withy & Co. Ltd.18 was disapproved by the Privy Council in the
+Wagon Mound19, but although it has never been overruled, it has been declared to be no
+longer law in the light of the change in the law of remoteness of damage that had taken place.
+There is also a strong suggestion in The Heron II20 that The Parana1, which had laid down a
+rule for assessing damages in the bygone days of sailing ships, had ceased to be law in the
+conditions of modern transport. When sterling changed from being a stable to a floating
+currency and after Britain’s entry into the EEC, the Court of Appeal departed from the rule
+laid down by the House of Lords in an earlier case2. Later, in following their decision, Lord
+Denning MR remarked ‘When the nature of sterling changes, the rule of law may change
+too’3. On appeal, the House of Lords affirmed the Court of Appeal and refused to follow
+their previous decision, but indicated that it was for the House, and not the Court of Appeal,
+to do so. The ‘changed conditions’ rule applies only to decision which are not binding. In an
+important statement of the position Lord Simon said:
+‘To sum up on this part of the case: (1) the maxim in the form ‘cessante ratione cessat
+ipsa’ reflects one of the considerations which your Lordships a previous decision of your
+Lordships’ House; (2) in relation to courts bound by the rule of precedent the maxim
+“cessante ratione cesat ipsa lex”, in its literal and widest sense, is misleading and erroneous;
+(3) specifically, courts which are bound by the rule of precedent are not free to disregard an
+otherwise binding precendent on the ground that the reason which led to the formulation of
+the rule embodied in such precedent seems to the court to have lost cogency; (4) the maxim
+in reality reflects the process of legal reasoning whereby a previous authority is judicially
+distinguished or an exception is made to a principal legal rule; (5) an otherwise binding
+precedent or rule may, on proper analysis, be held to have been impliedly overruled by a
+subsequent decision of a higher court or impliedly abrogated by an Act of Parliament; but 
+Justice In Deciding Disputes: Precedent
+93
+this doctrine is not accurately reflected by citation of the maxim “cessante ratione cessat ipsa
+lex”4
+Overruling
+This refers to the action of a superior court in upsetting the ratio laid down by a lower court
+in some other case. Reversal, which is the overthrow of a decision on appeal in the same cae,
+may involve disapproval of the ratio as stated by the lower court; but it need not, as where the
+decision is revered on some other point. Overruling necessarily involves disapproval of the
+ratio, but never affects the previous decision so that the parties in the judicata; and accounts
+that have been settled also are not affected5. A theoretical question arises when a superior
+court declares that a ratio enunciated previously by a lower court is wrong, but at the same
+time decides the present case with similar facts in the same way but for a different reason. If
+it is accepted that, whatever is held to constitute the ratio decidendi of a case, at least nothing
+can be ratio which does not support the order that is made, then the new ruling is ratio; but
+even if it is not, it may well prove to be so authoritative as to reduce the distinction between
+ratio and dictum to vanishing point6. If a case is overruled by statute, there is some ground
+for saying that its ratio is no longer authoritative7. A case may first be overruled and then
+reversed, as when the ratio is overthrown by superior authority in another case while there is
+still time within which to appeal in the first case, and an appeal is then lodged against the
+decision, which is duly reversed8. It is also possible for a case to be first reversed and then
+overruled, as when the decision is reversed on appeal on some other point without affecting
+the ratio, and the ratio is then overthrown in another case. If a case is overruled and the
+overruling case is itself reversed9, or overruled10, the first will revive. Statutory repeal
+operates prospectively, unless the statute itself subsequently overruled by statute. Does case
+A revive? By analogy with the case law position it is submitted that it does11.
+ It is a not possible to lay down a rule as to when it is or is not permissible to overrule12/
+There will sometimes be a bold rejection even of settled doctrine13, at others three will be a
+timid refusal to eradicate obsolete and Lords considered whether or not to overrule a previous
+decision of its own. Various considerations were mentioned. In the first place, it was said to
+be (a) Finality is necessary in developing the law; (b) a tenable view taken in case I should
+not be cast aside by an equally tenable opposite view in case 2, or this in turn may be cast
+aside in case 3; and (c) it is important not to encourage the re-opening of questions. Secondly,
+overruling is legitimate when broad issues of legal principle are involved, or if a decision has
+been disapproved, or distinguished on inadequate grounds. Thirdly, it is earlier to overrule a
+recent decision before it has been acted on. Fourthly, overruling should rarely occur in
+matters of statutory construction according to two of their Lordship, but two others thought
+the earlier case to have been wrongly decided, only a minority were prepared to overrule it17.
+ Circumstances which might tend to strengthen the authority of a case and which would
+work against it being overruled are the unanimity of the court, the eminence of the judges
+who composed it, the approval of the decision in later cases and by the profession at large,
+the evidence in the report that the issue was fully and carefully argued by counsel and that the
+court took time to deliberate, and the length of time for which the decision has stood. This
+last is especially important since the longer a case has stood, the more people will have 
+Justice In Deciding Disputes: Precedent
+94
+governed their transactions on the basis of what is thought to be law18. Similarly, factors
+which might make a court more ready to overrule an earlier case are a lack of unanimity in
+the judgments, the failure to take notice of relevant authorities, the lack of eminence of the
+judges who decided notice of relevant authorities, the lack of eminence of the judges who
+decided it, the fact that the report is of poor quality, the fact that the issue was not fought out
+fully but was compromised, the fact that the judgment was extrempore and the matter had not
+been properly argued, the fact that the case has been doubted or criticised in subsequent
+decisions or by the profession or in commentaries of jurists, and, by no means least, if the
+decision is thought to be plainly wrong.
+ Overruling may be express or implied. It is implied when the ratio of the later decision of
+a superior court is inconsistent with that of the inferior court. In view of the difficulty of
+ascertaining the ratio of a case, it follows that it is equally difficult to decie whether a case
+has been impliedly overruled or not19, but it does give court a loophole for escaping from
+stare decisis.
+ That effect of overruling is retroactive except that it does not unsettle matters which are
+res judicata as between the parties to the overruled decision, and accounts which have been
+settled20. Retroactivity is logically reconcilable with the theory that judges do not make law
+but only declare what always has been law on the hypothesis that the overruled decision was
+an erroneous declaration of the law and hence void ab initio. This reason may be an ex post
+facto rationalisation. A more fundamental reason seems equally plausible, namely that just
+quality is inherent in every law. Therefore, an unjust (hence erroneous) precedent can never
+have been ‘law’. However, the retroactive rule creates a difficulty. The House of Lords
+insists that only the House can declare its own decisions wrong and that lower courts must
+follow them. This implies that such previous decisions are ‘law’, albeit ‘bad law’, since no
+court can be bound to follow that which is not ‘law’, albeit ‘bad law, since no court can be
+bound to follow that which is not law. If so, the overruling by the House of Lords of one of
+its own decisions must operate prospectively, unless there is express provision to the
+contrary. Everything that occurred prior to repeal; remains governed by the repealed statute.
+ Even if it is be conceded that judges do make law, the question of hardship would remain
+in that those who had acted in reliance on the law prevailing at the time would be judged on
+the basis of a different law made ex post facto. This consideration weighs powerfully against
+overruling except for compelling reasons. A suggestion that merits serious attention is that
+overruling, like repeal, should take effect for the future only, and that the decision in the
+instant case should abide by the previous law for the last time1. The objections do not appear
+to be conclusive. It might be said that if the new rule, which is to supplant the old, does not
+support the actual decision it can only be a dictum. This might be countered by the argument
+that the tribunal is only freeing itself for the future from any constraining effect of its own
+decision, thus enabling itself to adopt the dictum later. It might also be objected that a litigant
+would not be encouraged to appeal against a bad precedent if the overruling of it would not
+avail him. There is probably some substance in this in a limited number of cases, but against
+it there is a factor which often stands in the way of much-needed reform. Besides, the
+objection would be met by coupling prospective overruling with a discretion to overrule for
+the future and for the instant case, or for the future only, or for the future, the instant case and 
+Justice In Deciding Disputes: Precedent
+95
+retrospectively. Prospective overruling will be helpful where the object is to create a new
+criminal offence, or extend an existing one, by overruling a case which had held that there is
+no liability in that situation; for this would avoid having to punish the accused in the instant
+case for conduct which was not a crime when he did it. 

@@ -1,0 +1,227 @@
+:root {
+    --bg-color: #212121;
+    --sidebar-color: #000000;
+    --chat-area-color: #343541;
+    --message-user-color: #343541;
+    --message-ai-color: #444654;
+    --text-color: #ECECEC;
+    --border-color: rgba(255, 255, 255, 0.2);
+    --input-bg-color: #40414f;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* --- Sidebar --- */
+.sidebar {
+    width: 260px;
+    background-color: var(--sidebar-color);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-right: 1px solid var(--border-color);
+}
+
+.sidebar-header {
+    flex-shrink: 0;
+    margin-bottom: 10px; /* ADDED: Space below New Chat button */
+}
+
+.new-chat-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none; /* ADDED: Ensure it looks like a button */
+    display: block;      /* ADDED: Ensure it fills width */
+}
+
+.new-chat-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-history {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.sidebar-footer {
+    flex-shrink: 0;
+    border-top: 1px solid var(--border-color);
+    padding-top: 10px;
+}
+
+.sidebar-link {
+    display: block;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 12px 10px; /* INCREASED: Vertical padding for more space */
+    border-radius: 5px;
+    margin-bottom: 5px;
+    white-space: nowrap;      /* ADDED: Prevent text wrapping */
+    overflow: hidden;         /* ADDED: Hide overflow */
+    text-overflow: ellipsis;  /* ADDED: Add ... for long titles */
+}
+
+.sidebar-link:hover {
+    background-color: var(--message-ai-color);
+}
+.sidebar-link.active { /* ADDED: Style for the currently active chat */
+    background-color: var(--message-ai-color);
+}
+
+
+/* --- Chat Area --- */
+.chat-area {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--chat-area-color);
+    position: relative;
+}
+
+.chat-window {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px 30px; /* INCREASED: Horizontal padding */
+}
+
+.message {
+    display: flex;
+    gap: 20px; /* INCREASED: Space between avatar and text */
+    padding: 20px; /* INCREASED: Padding inside the message bar */
+    margin-bottom: 10px; /* ADDED: More space between messages */
+    line-height: 1.6;
+}
+
+.ai-message {
+    background-color: var(--message-ai-color);
+}
+
+.avatar {
+    width: 35px; /* INCREASED: Avatar size */
+    height: 35px;/* INCREASED: Avatar size */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+    font-size: 14px; /* ADDED: Font size for avatar text */
+}
+
+.user-avatar { background-color: #19c37d; }
+.ai-avatar { background-color: #7b68ee; }
+
+.message-content {
+    max-width: 90%;
+}
+.message-content p { margin: 0; }
+.message-content pre { margin-top: 10px; }
+
+/* ADDED: Better formatting for lists in AI responses */
+.message-content ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.message-content li {
+    margin-bottom: 8px;
+}
+.message-content strong {
+    color: #a5d6ff; /* Highlight bold text slightly */
+}
+
+
+/* --- Input Area --- */
+.input-area-container {
+    padding: 24px 20px; /* INCREASED: More padding */
+    flex-shrink: 0;
+    border-top: 1px solid var(--border-color); /* ADDED: Separator line */
+    background: var(--chat-area-color);
+}
+
+.input-area {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#message-form {
+    display: flex;
+    align-items: center;
+    background-color: var(--input-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 8px 15px; /* INCREASED: More padding */
+}
+
+#message-input {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 16px;
+    padding: 10px;
+    resize: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#message-input:focus { outline: none; }
+
+#send-button {
+    background: #19c37d;
+    border: none;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#send-button:hover { opacity: 0.8; }
+
+.disclaimer {
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+    margin-top: 15px; /* INCREASED: More space */
+}
+
+/* Typing Indicator (Unchanged) */
+.typing-indicator { display: flex; padding: 10px 0; }
+.typing-indicator span { height: 8px; width: 8px; background-color: #999; border-radius: 50%; display: inline-block; margin: 0 2px; animation: bounce 1.4s infinite ease-in-out both; }
+.typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+.typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+@keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1.0); } }
+
+/* Code blocks (Unchanged) */
+pre code.hljs { display: block; overflow-x: auto; padding: 1em; background: #282c34; border-radius: 5px; }
+/* ADD THIS TO THE END OF static/css/style.css */
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Match the avatar's border-radius from your CSS */
+    border-radius: 5px;
+}

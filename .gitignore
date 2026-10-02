@@ -1,0 +1,8 @@
+﻿.env
+**/.env
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+Milestone-3/task-10/instance/users.db
