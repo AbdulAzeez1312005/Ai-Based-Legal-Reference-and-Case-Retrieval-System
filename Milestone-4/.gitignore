@@ -1,0 +1,15 @@
+# Secrets and local state
+backend/.env
+backend/app.db
+.cache/
+# Python
+.venv/
+backend/__pycache__/
+backend/**/*.py[cod]
+# Node
+frontend/node_modules/
+frontend/dist/
+# Local Ollama runtime/model storage can be large
+ollama-home/
+ollama-models/
+ollama-runtime/

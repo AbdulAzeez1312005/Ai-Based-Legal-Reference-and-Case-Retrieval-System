@@ -1,0 +1,3 @@
+.fatal-error { min-height: 100vh; padding: 8vh 8vw; color: #eaf0f5; background: #101e2d; font: 15px/1.6 "Segoe UI", sans-serif; }
+.fatal-error h1 { font-size: 28px; }
+.fatal-error pre { color: #f4a9a5; white-space: pre-wrap; }
