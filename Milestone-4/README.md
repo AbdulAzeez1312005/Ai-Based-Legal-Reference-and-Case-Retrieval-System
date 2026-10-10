@@ -1,112 +1,184 @@
 # AI-Based Legal Reference and Case Retrieval System — Milestone 4
 
-Milestone 4 rebuilds the earlier document-processing and RAG work as a React and Flask application. It searches Indian legal statutes and case documents in Pinecone, then drafts a source-grounded answer using the local Ollama model Qwen2.5 7B.
+Milestone 4 is a full-stack retrieval-augmented generation (RAG) application for asking questions about Indian legal material. Users can ask about Acts, provisions, and judgments; the system retrieves relevant passages, generates an answer grounded in those passages, and cites the source file and page. It also provides sign-in, saved conversations, profile settings, and per-chat deletion.
 
-## Technologies
+The application searches the corpus in `backend/data2/`. It does not provide an end-user document upload or document-library management screen.
 
-- React 18 and Vite for the web interface.
-- Flask, Flask-Cors, Flask-SQLAlchemy, and SQLite for the application API, login, and saved conversations.
-- Account profile settings for changing a display name and private PNG, JPEG, or WebP photo; chat history supports deleting individual conversations and their messages.
-- Pinecone for hosted vector retrieval.
-- Sentence Transformers, using sentence-transformers/all-MiniLM-L6-v2 (384 dimensions), for document/query embeddings.
-- Ollama and qwen2.5:7b for local answer generation; no OpenAI key is used.
-- pypdf, docx2txt, and BeautifulSoup for supported source files.
+## Architecture
 
-The generic ingestion pipeline recognizes section, article, rule, regulation, clause, and order headings from the documents themselves. It does not contain a hard-coded list of provisions for one Act. PDFs and text files remain in backend/data2.
+```text
+Browser (React + Vite)
+        │  /api requests; Vite proxies to Flask during local development
+        ▼
+Flask API (backend/app.py) ───────────────► SQLite
+        │                                    users, profile photos,
+        │                                    conversations, messages
+        ├── Question ─► Sentence Transformers ─► Pinecone vector search
+        │                                      │
+        │◄──────── retrieved passages, source files and page metadata
+        │
+        └── grounded prompt + passages ───────► Ollama (qwen2.5:7b)
+                    ◄────────────────────────── generated answer
+        │
+        └── answer and verified citations ────► Browser
 
-## Setup on Windows
+backend/data2/ ─► parser/chunker ─► MiniLM embeddings ─► Pinecone
+                   (backend/ingest.py)
+```
 
-1. Install Python 3.11 or newer, Node.js 20 or newer, and VS Code.
-2. Keep the existing backend/.env. If setting up a fresh copy, make backend/.env from backend/.env.example and provide a Pinecone API key locally. Do not paste credentials into chat or commit the .env file.
-3. From this Milestone-4 directory, create and install the Python virtual environment:
+- **Frontend:** React 18 and Vite; presents the sign-in screen, chat workspace, saved chat history, profile controls, and errors.
+- **API and persistence:** Flask serves the API. SQLite stores user accounts, profile photos, conversations, and messages in `backend/app.db`.
+- **Ingestion and retrieval:** `backend/legal_rag.py` parses supported legal source files, identifies provision headings generically, creates chunks, and retrieves relevant passages. It does not hard-code provision numbers for particular Acts.
+- **Vector search:** Pinecone stores 384-dimensional vectors from `sentence-transformers/all-MiniLM-L6-v2`, along with source, page, and provision metadata.
+- **Answer generation:** Flask sends retrieved excerpts to the configured Ollama model. Answers are instructed to stay within the retrieved evidence and use citations checked against retrieval metadata.
+- **Corpus:** The included PDFs and text documents are under `backend/data2/`. Ingestion upserts vectors to Pinecone; it does not delete existing vectors.
 
-~~~powershell
-py -3 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r backend\requirements.txt
-~~~
+## Requirements
 
-The backend reads its configuration from `backend/.env`:
+- Windows 10/11, PowerShell, and VS Code.
+- Python 3.11.
+- Node.js 20 or newer and npm.
+- [Ollama for Windows](https://ollama.com/download).
+- A Pinecone account and API key.
+- Internet access for package installation and the first download of the embedding model.
+- Enough memory for Ollama to run Qwen2.5 7B (about 5 GB for the model, plus runtime overhead).
 
-| Variable | Purpose | Typical value |
+## Download and open in VS Code
+
+Open VS Code, choose **Terminal → New Terminal**, and run these commands. Replace the example parent directory with the location where you want the project cloned:
+
+```powershell
+Set-Location "D:\Projects"
+git clone https://github.com/AbdulAzeez1312005/Ai-Based-Legal-Reference-and-Case-Retrieval-System.git
+Set-Location ".\Ai-Based-Legal-Reference-and-Case-Retrieval-System\Milestone-4"
+code .
+```
+
+Alternatively, use the repository's **Code → Download ZIP** option on GitHub, extract it, open the extracted `Milestone-4` folder in VS Code, and continue with the setup below.
+
+## Configure Pinecone and the application
+
+From the `Milestone-4` directory in the VS Code terminal:
+
+```powershell
+Copy-Item backend\.env.example backend\.env
+code backend\.env
+```
+
+Set `PINECONE_API_KEY` to your own Pinecone key in `backend/.env`. Keep this file private; it is ignored by Git. Do not paste the key into source files or commit it.
+
+The main environment variables are:
+
+| Variable | Purpose | Default/example |
 | --- | --- | --- |
-| `PINECONE_API_KEY` | Pinecone credential; keep it private | Set locally |
-| `PINECONE_INDEX` | Pinecone index name | `legal-reference-m4` |
-| `OLLAMA_BASE_URL` | URL reachable by Flask for the Ollama API | `http://localhost:11434` |
-| `OLLAMA_MODEL` | Local model used for answers | `qwen2.5:7b` |
-| `FRONTEND_ORIGIN` | Allowed frontend origin for credentialed API requests | `http://localhost:5173` |
+| `PINECONE_API_KEY` | Private Pinecone API credential | Set this yourself |
+| `PINECONE_INDEX` | Pinecone index used by the application | `legal-reference-m4` |
+| `PINECONE_NAMESPACE` | Pinecone namespace | Empty (default namespace) |
+| `OLLAMA_BASE_URL` | Ollama API URL reachable from Flask | `http://localhost:11434` |
+| `OLLAMA_MODEL` | Model used to generate answers | `qwen2.5:7b` |
+| `FRONTEND_ORIGIN` | Allowed frontend origin | `http://localhost:5173` |
 | `PORT` | Flask API port | `5000` |
 
-The template also lists optional Flask, Pinecone, embedding, retrieval, and Ollama tuning settings.
+The template also includes optional Flask, Pinecone region/cloud, embedding, retrieval, and Ollama tuning settings. The ingestion script creates the configured Pinecone index if it does not exist, using 384 dimensions and cosine similarity. An existing index must have the expected dimension.
 
-4. Ensure the Ollama model is installed. If it is not already in the model store used by Ollama, run:
+## Install Python and JavaScript dependencies
 
-~~~powershell
-$env:OLLAMA_MODELS = Join-Path (Get-Location) "ollama-models"
-ollama pull qwen2.5:7b
-~~~
+In the VS Code terminal with the working directory set to `Milestone-4`:
 
-5. In a separate VS Code terminal, start the Ollama copy and models stored in this project:
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r backend\requirements.txt
+```
 
-~~~powershell
-.\start-ollama.ps1
-~~~
+Install the frontend dependencies:
 
-The launcher sets `OLLAMA_MODELS` to the project-local `ollama-models` folder as well.
-
-6. In another terminal, start Flask:
-
-~~~powershell
-.\.venv\Scripts\python.exe backend\app.py
-~~~
-
-7. In a third terminal, install and start the React app:
-
-~~~powershell
-cd frontend
+```powershell
+Set-Location frontend
 npm install
-npm run dev
-~~~
+Set-Location ..
+```
 
-8. Open http://127.0.0.1:5173, create an account, and start a research chat.
+## Install Ollama and its model
 
-The Flask API health endpoint is http://127.0.0.1:5000/api/health. It reports whether Ollama responds, and which Pinecone index/model settings are selected.
+Install Ollama for Windows, then in a VS Code terminal run:
 
-Use the profile settings control at the bottom of the sidebar to update the display name or photo. Profile photos are limited to 1 MB and stored with the account. Use the trash control beside a conversation to delete that chat after confirmation.
+```powershell
+ollama pull qwen2.5:7b
+```
 
-## Ingest and refresh Pinecone
+Ollama commonly starts as a background service after installation. If the local API is not already running, start it in its own terminal:
 
-First parse the local source files without changing Pinecone:
+```powershell
+ollama serve
+```
 
-~~~powershell
+Leave that terminal open. The app expects the Ollama API at `http://localhost:11434` unless `OLLAMA_BASE_URL` is changed in `backend/.env`.
+
+## Ingest the legal corpus
+
+Run ingestion from the `Milestone-4` directory. First, optionally parse the corpus without contacting or changing Pinecone:
+
+```powershell
 .\.venv\Scripts\python.exe backend\ingest.py --dry-run
-~~~
+```
 
-When the report looks reasonable, upsert the vectors:
+To create/populate the configured index, run:
 
-~~~powershell
+```powershell
 .\.venv\Scripts\python.exe backend\ingest.py
-~~~
+```
 
-The uploader confirms before sending. It writes versioned records with source, physical PDF page, provision label/title, document id, and chunk order. It uses Pinecone upsert with deterministic ids, does not delete vectors, and can be rerun safely. Ensure the configured index exists and its dimension matches the selected embedding model (384 for MiniLM).
+Review the source and chunk report, then enter `y` at the confirmation prompt to upsert. PDF parsing and embedding can take a while. Re-running ingestion upserts deterministic record IDs; it does not delete Pinecone vectors. Do not use a different Pinecone index from the one configured for the app.
 
-## Verification
+## Run the app from VS Code terminals
 
-Run offline parser and retrieval regressions:
+Keep the Ollama, Flask, and frontend terminals open while using the app.
 
-~~~powershell
-.\.venv\Scripts\python.exe -m unittest discover -s backend -p "test_*.py"
-~~~
+**Terminal 1 — Ollama:** run `ollama serve` if Ollama is not already running. Keep this terminal open.
 
-After ingestion, optional live retrieval checks can be run with:
+**Terminal 2 — Flask API** (from the `Milestone-4` directory):
 
-~~~powershell
+```powershell
+.\.venv\Scripts\python.exe backend\app.py
+```
+
+The API runs at `http://127.0.0.1:5000` by default. Check its health endpoint at `http://127.0.0.1:5000/api/health`.
+
+**Terminal 3 — React/Vite frontend:**
+
+```powershell
+Set-Location ".\frontend"
+npm run dev
+```
+
+Open the URL printed by Vite, normally `http://127.0.0.1:5173`. Create an account or sign in, then ask a question in a new research chat. Use the profile control at the bottom of the sidebar to change your display name or photo. Use the trash icon beside a conversation to delete it after confirmation.
+
+To stop a foreground server, focus its terminal and press `Ctrl+C`. If the frontend or API ports are changed, update the Vite proxy and the relevant `.env` settings consistently.
+
+## Tests and production build
+
+Run offline backend tests from the `Milestone-4` directory:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m unittest discover -s backend -p "test_*.py"
+```
+
+Run live Pinecone retrieval checks after ingestion:
+
+```powershell
 .\.venv\Scripts\python.exe backend\test_rag_pipeline.py --live
-~~~
+```
 
-The live checks require Pinecone access and a populated index. Live answer generation also requires Ollama to be running and the configured model to be available.
+The live retrieval checks need a working Pinecone key and an ingested index. Live answer generation through the UI also needs Ollama and the selected model available.
 
-## Deployment
+Build the frontend for production:
 
-Ollama runs locally for development. A deployed Flask server must be able to reach an Ollama service and Pinecone; the browser does not receive either service's credentials. The host running Ollama needs sufficient RAM or GPU memory for the model (about 5 GB for Qwen2.5 7B, plus runtime overhead). A serverless platform that cannot run Ollama or reach a private Ollama service cannot use this local setup directly.
+```powershell
+Set-Location frontend
+npm run build
+```
+
+## Deployment notes
+
+The Flask server must be able to reach both Pinecone and an Ollama service. For deployment, provide Ollama on a reachable self-hosted VM or container with sufficient RAM/GPU memory; the browser must not connect directly to Ollama or receive Pinecone credentials. Serverless hosts that cannot run or reach Ollama will not work with this setup. Set a strong `FLASK_SECRET_KEY`, configure `FRONTEND_ORIGIN` for the deployed frontend, and keep `.env` and user data out of source control.
